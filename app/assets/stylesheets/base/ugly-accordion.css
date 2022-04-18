@@ -1,0 +1,31 @@
+.ugly-accordion {
+  border: 0.1rem solid rgb(223, 223, 223);
+  border-radius: 0.45rem;
+  margin: 0.5rem 0rem;
+}
+
+.ugly-card-header {
+  padding: 1.5rem;
+  background-color: rgb(247, 247, 247);
+  border-bottom: 0.1rem solid rgb(223, 223, 223);
+}
+
+.ugly-card-body {
+  display: none;
+  padding: 1.2rem 0.9rem;
+  font-weight: 200;
+  border-bottom: 0.1rem solid rgb(223, 223, 223);
+}
+
+.ugly-card-title {
+  display: inline;
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(64, 133, 255);
+  cursor: pointer;
+}
+
+.ugly-card-title:hover {
+  color: rgb(0, 105, 217);
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* border: 1px dotted red; */
+}
+
+header {
+  background-color: white;
+  margin: 1rem 0rem;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 850px;
+}
+
+.demo-box {
+  margin: 0.2rem 0rem;
+  padding: 1rem 0.1rem;
+  border: 0.1rem dotted rgb(237, 237, 237);
+  border-radius: 0.4rem;
+}
